@@ -1,0 +1,36 @@
+{
+    "name": "gitbook-plugin-fixside",
+    "title": "Fixed sidebar for gitbook",
+    "description": "Save your time to scroll to the same sidebar position everytime",
+    "main": "index.js",
+    "icon": "",
+    "version": "0.1.5",
+    "engines": {
+        "gitbook": ">1.x.x"
+    },
+    "scripts": {
+    },
+    "homepage": "https://github.com/sy2729/gitbook-plugin-fixside",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:sy2729/gitbook-plugin-fixside.git"
+    },
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": ""
+    },
+    "gitbook": {
+        "properties": {
+            "token": {
+                "type": "string",
+                "title": "Tracking ID",
+                "required": false
+            },
+            "configuration": {
+                "type": "string",
+                "title": "Configuration mode",
+                "default": "auto"
+            }
+        }
+    }
+}
